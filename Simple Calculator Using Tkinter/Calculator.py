@@ -25,6 +25,12 @@ def clear():
 root=Tk()
 
 root.geometry("400x470")
+# set minimum window size value
+root.minsize(400, 470)
+ 
+# set maximum window size value
+root.maxsize(400, 470)
+
 root.title("Simple Calculator")
 root.configure(bg="lightblue")
 
